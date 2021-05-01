@@ -5,7 +5,7 @@ function Merge_Sort() {
 
     
     remove_class(algo_btn_arr[4]);
-    enable_btn();
+  
 }
 
 function merge(start, mid, end) {
