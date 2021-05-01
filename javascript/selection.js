@@ -1,5 +1,6 @@
 function Selection_Sort() {
     delay = 0;
+    disable_btn();
 
     for (var i = 0; i <= a_size; i++) {
         change_color(divs[i], div_size[i], "red");//Color update

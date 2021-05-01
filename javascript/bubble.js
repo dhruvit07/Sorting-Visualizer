@@ -29,6 +29,6 @@ function Bubble_Sort() {
 
     }
     change_color(divs[0], div_size[0], "#09e37a");
-   
+   enable_btn();
     remove_class(algo_btn_arr[1]);
 }

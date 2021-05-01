@@ -1,6 +1,6 @@
 function Quick_Sort() {
     delay = 0;
-
+disable_btn();
     quick(0, a_size - 1);
 
     enable_btn();
