@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Visual Sorting</title>
+  <meta name='viewport' content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container">
+      
+      <div class="topnav" id="myTopnav">
+        <a class="active">Visual Sorting</a>
+        <a href="#" onclick="Bubble_Sort();">Bubble</a>
+        <a href="#" onclick="Selection_Sort();">Selection</a>
+        <a href="#" onclick="Insertion_Sort();">Insertion</a>
+        <a href="#" onclick="Merge_Sort()">Merge</a>
+        <a href="#" onclick="Quick_Sort();">Quick</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+
+    </div>
+      
+     
+    
+    <div id="after">
+      </div>
+  
+
+<div class="control">
+      <p style="margin-top: 0px;">Array Size:</p>
+      <input style="margin-top: 0px;" id="array_size" type="range" min=20 max=150 step=1 value=80>
+      <p>Sorting Speed:</p>
+      <input id="array_speed" type="range" min=1 max=10 step=1 value=5>
+      <a href="#" id="array_generate">Generate New Array!</a>
+       <a href="#" id="stop_sort">Stop!</a>
+      
+      </div>
+          <div id="before">
+          </div>
+      
+    
+  
+
+    <div class="after">
+    </div>
+    <div id="Array_Container">
+    </div>
+    <div class="before">
+    </div>
+  
+  </div>
+  
+  <div class="navbar">
+   <a href="/About.html">About Website!</a>
+  </div>
+  <footer>
+  
+  <script src='./JavaScript/main.js'></script>
+  <script src='./JavaScript/Bubble_Sort.js'></script>
+  <script src='./JavaScript/Selection_Sort.js'></script>
+  <script src='./JavaScript/Insertion_Sort.js'></script>
+  <script src='./JavaScript/Merge_Sort.js'></script>
+  <script src='./JavaScript/Quick_Sort.js'></script>
+  </footer>
+</body>
+
+</html>
