@@ -1,10 +1,11 @@
 function Merge_Sort() {
     delay = 0;
-
+    disable_btn();
     merge_partition(0, a_size - 1);
 
-    disable_btn();
+    
     remove_class(algo_btn_arr[4]);
+    enable_btn();
 }
 
 function merge(start, mid, end) {
@@ -48,5 +49,5 @@ function merge_partition(start, end) {
         merge(start, mid, end);
 
     }
-    enable_btn();
+
 }
