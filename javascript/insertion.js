@@ -1,5 +1,6 @@
 function Insertion_Sort() {
     delay = 0;
+    disable_btn();
 
     for (var j = 0; j <= a_size; j++) {
         change_color(divs[j], div_size[j], "#E8FF13");//Color update

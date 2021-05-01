@@ -74,6 +74,19 @@ function disable_btn() {
 
 
 }
+//function enables the button
+function enable_btn() {
+    window.setTimeout(function () {
+        for (i = 0; i < algo_btn_arr.length; i++) {
+            algo_btn_arr[i].disabled = false;
+            algo_btn_arr[i].classList.toggle("btn_locked", false);
+        }
+        i_a_size.disabled = false;
+        a_speed.disabled = false;
+        generate.disabled = false;
+
+    }, delay);
+}
 
 //function sets the timeout delay using the range given from input a_speed
 function v_speed() {
@@ -114,19 +127,7 @@ function change_color(cont, height, color) {
 
 }
 
-//function enables the button
-function enable_btn() {
-    window.setTimeout(function () {
-        for (i = 0; i < algo_btn_arr.length; i++) {
-            algo_btn_arr[i].disabled = false;
-            algo_btn_arr[i].classList.toggle("btn_locked", false);
-        }
-        i_a_size.disabled = false;
-        a_speed.disabled = false;
-        generate.disabled = false;
 
-    }, delay);
-}
 
 function add_class() {
 
