@@ -3,7 +3,6 @@ function Quick_Sort() {
 disable_btn();
     quick(0, a_size - 1);
 
-    enable_btn();
 }
 
 function quick_partition(start, end) {

@@ -35,7 +35,7 @@ function Selection_Sort() {
     }
     change_color(divs[i], div_size[i], "#09e37a");//Color update
 
-    enable_btn();
+
     remove_class(algo_btn_arr[2]);
 
 }
