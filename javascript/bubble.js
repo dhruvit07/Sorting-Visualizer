@@ -11,8 +11,8 @@ function Bubble_Sort() {
 
 
             if (div_size[j] > div_size[j + 1]) {
-                change_color(divs[j], div_size[j], "");
-                change_color(divs[j + 1], div_size[j + 1], "red");
+                change_color(divs[j], div_size[j], "yellow");
+                change_color(divs[j + 1], div_size[j + 1], "yellow");
 
                 temp = div_size[j];
                 div_size[j] = div_size[j + 1];
@@ -23,7 +23,7 @@ function Bubble_Sort() {
                 change_color(divs[j + 1], div_size[j + 1], "red");
             }
 
-            change_color(divs[j], div_size[j], "#4870FF");
+            change_color(divs[j], div_size[j], "orange");
         }
         change_color(divs[j], div_size[j], "#09e37a");
 
