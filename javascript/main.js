@@ -8,7 +8,7 @@ var speed = 1000, delay = 0;
 var a_container = document.getElementById("Array_Container");
 var generate = document.getElementById("array_generate");
 var stop = document.getElementById("stop_sort");
-var algo_btn_arr = document.querySelectorAll("button");
+var algo_btn_arr = document.querySelectorAll("a");
 
 
 
@@ -63,11 +63,7 @@ function update_array_size() {
 
 //Disables All Button While Sorting 
 function disable_btn() {
-    for (i = 0; i < algo_btn_arr.length; i++) {
-        algo_btn_arr[i].disabled = true;
-        algo_btn_arr[i].classList.toggle("btn_locked", true);
-
-    }
+  
     i_a_size.disabled = true;
     a_speed.disabled = true;
     generate.disabled = true;

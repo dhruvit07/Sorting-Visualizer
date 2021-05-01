@@ -33,6 +33,6 @@ function Insertion_Sort() {
     }
     change_color(divs[j - 1], div_size[j - 1], "#09E37A");//Color update
 
-    enable_btn();
+    
     remove_class(algo_btn_arr[3]);
 }
