@@ -35,7 +35,7 @@ Features
 
 ### Run in your local
 
-- ```git clone https://github.com/sadanandpai/sorting-visualizer.git```
+- ```git clone https://github.com/Dhruvit07/sorting.git```
 - ```open index.html``` (after navigating inside the directory)
 
 ### Contributing Guide
