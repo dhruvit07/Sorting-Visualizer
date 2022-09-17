@@ -40,5 +40,5 @@ Features
 
 ### Contributing Guide
 
-If you want to contribute, improve or fix bugs in this repo, then check out the [Contributing Guide](./CONTRIBUTING.md)
+Currently we are not accepting any contribution, we'll update as soon as we do.
 <br/>
